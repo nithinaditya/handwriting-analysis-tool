@@ -1,0 +1,27 @@
+
+body {
+    background-image: url("/assets/another grid opacity.png");
+    background-size: cover;
+    
+}
+
+.container  {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 6rem;
+}
+
+h2 {
+    padding-top: 7%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    background-color: rgba(0,0,0,0.5);
+}

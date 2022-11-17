@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+main{
+    background: url(https://4.bp.blogspot.com/-sA2ZM0-oR4E/Uh9hoE_6qZI/AAAAAAAAEwg/GV740FLO7s4/s1600/Background-Grid2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+#home{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(230, 247, 255, 0.4);
+    display: flex;
+    backdrop-filter: blur(3px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hsa h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color:  #FF9F1C;
+    margin-bottom: 8%;
+    font-family: 'Cabin Sketch', cursive;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+.gs{
+   --button_radius: 0.75em;
+   --button_color: #e8e8e8;
+   --button_outline_color: #000000;
+   font-size: 17px;
+   font-weight: bold;
+   border: none;
+   border-radius: var(--button_radius);
+   background: var(--button_outline_color);
+  }
+  
+  .button_top {
+   display: block;
+   box-sizing: border-box;
+   border: 2px solid var(--button_outline_color);
+   border-radius: var(--button_radius);
+   padding: 0.75em 1.5em;
+   background: var(--button_color);
+   color: var(--button_outline_color);
+   transform: translateY(-0.2em);
+   transition: transform 0.1s ease;
+  }
+  
+  button:hover .button_top {
+   transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+   transform: translateY(0);
+  }
+
+  /*Task*/
+#task{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: rgb(6, 6, 105);
+}
+
+form{
+    margin-top: 10%;
+}
+
+form input{
+    display : none;
+    width: 100%;
+    height: 5%;
+    border-radius: 0.5em;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0.5em;
+}
+.tb{
+    background-color: rgba(230, 247, 255, 0.4);
+    padding: 50px;
+    border-radius: 0.5em;
+    backdrop-filter: blur(3px);
+}
+
+.lg{margin-top: 5%;}
+
+.ctu span{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(10, 10, 10);
+    background-color: #e8e8e8;
+    padding: 10px;
+    border-radius: 25px;
+}
+.ctu span:hover{
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.hd{
+    font-family: 'Cabin Sketch',cursive;
+    font-size: 2.2rem;
+    margin-bottom: 2%;
+}
+.img{
+    display: inline-block;
+    width:20%;
+    height: 20%;
+   
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

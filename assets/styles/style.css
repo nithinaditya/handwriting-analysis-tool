@@ -1,0 +1,77 @@
+/* colorscheme #16697A #489FB5 #82C0CC #EDE7E3 #FFA62B */
+
+body {
+    background-image: url("http://localhost:3002/assets/another%20grid%20opacity.png");
+    background-size: cover;
+    backdrop-filter: blur(0.15rem);
+}
+
+h1 {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 6rem;
+}
+
+h2 {
+    padding-top: 7%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* classes */
+.col {
+    text-align: center;
+}
+.row {
+    text-align: center;
+}
+
+/* From cssbuttons.io by @Voxybuns */
+button {
+  /* Variables */
+ --button_radius: 0.75em;
+ --button_color: #e8e8e8;
+ --button_outline_color: #000000;
+ font-size: 17px;
+ font-weight: bold;
+ border: none;
+ border-radius: var(--button_radius);
+ background: var(--button_outline_color);
+}
+
+.button_top {
+ display: block;
+ box-sizing: border-box;
+ border: 2px solid var(--button_outline_color);
+ border-radius: var(--button_radius);
+ padding: 0.75em 1.5em;
+ background: var(--button_color);
+ color: var(--button_outline_color);
+ transform: translateY(-0.2em);
+ transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+  /* Pull the button upwards when hovered */
+ transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+  /* Push the button downwards when pressed */
+ transform: translateY(0);
+}
+
+/* grades */
+#grades {
+    padding: 7% 5%;
+}
+
+#grades img {
+    padding: 2rem;
+}
+
+#downloads {
+    padding: 7% 5%;
+}
